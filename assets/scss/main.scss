@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700');
+@font-face {
+  font-family: 'BistroScript';
+  src: url('../fonts/BistroScript.ttf')
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExBold';
+	src: url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+}
+///////////////////////////////////////////////////////////
+// default by mioe
+p, h1, h2, h3, h4, h5, h6 { // reset
+  margin-bottom: 0;
+}
+
+
+a { // reset
+  padding: 0;
+  margin: 0;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+ul { // reset
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+.dontTouchMe {	// блокирует выделение текста
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+	user-select: none;
+}
+///////////////////////////////////////////////////////////
+//button
+.primaryBtn{
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 34px;
+  text-align: center;
+  background-color: rgb(0, 141, 207);
+  display: block;
+}
+//main menu nav bar
+.mainMenu{
+  background-color: #fff;
+  padding: 10px 0px;
+  border-bottom: 2px solid #000;
+  .nav-link{
+    font-size: 21px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: rgb(18, 18, 21) !important;
+    line-height: 1.2;
+    margin-right: 20px;
+  }
+  .active{
+    a {
+      color: #008dd2 !important;
+    }
+  }
+  .navbar-brand{
+    margin-right: 60px;
+  } 
+}
+
+.callUs {
+  margin-left: 20px;
+  h3 {
+    font-size: 21.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(18, 18, 21);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  a{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 34px;
+    text-align: center;
+    background-color: rgb(0, 141, 207);
+    width: 190px;
+    height: 34px;
+    display: block;
+  }
+}
+///////////////////////////////////////////////////////////////
+//block postavshik
+.postav{
+  background-image: url('../img/1.png');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 48px;
+	  font-family: 'Proxima Nova ExBold';
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    
+  }
+  form{
+    margin-top: 50px;
+    input[type="text"]{
+      background-color: rgb(255, 255, 255);
+      width: 163px;
+      height: 35px;
+      border: none;
+      font-size: 16px;
+      font-family: "Roboto";
+      text-align: center;
+      color: rgb(112, 112, 112);
+      line-height: 1.2;
+      border-right: 6px solid #008dd2;
+      margin-right: 6px;
+      &::placeholder{
+        color: rgb(10, 10, 10) !important;
+      }
+    }
+    input[type="submit"]{
+      border: none;
+      display: inline;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////
+/* >magic                                                */
+///////////////////////////////////////////////////////////
+// Large devices (desktops, 992px and up)
+// >desk
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background: goldenrod;
+  }
+
+  .block {
+    width: 960px;
+  }
+} // end! Large devices
+
+
+// Medium devices (tablets, 768px and up)
+// >tablet
+@media (min-width: 768px) and (max-width: 991.98px){
+.postav{
+  h2{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+}
+
+} // end! Medium devices 
+
+
+
+// Small devices (landscape phones, 576px and up)
+// >smart
+@media (min-width: 576px) and (max-width: 767.98px) {
+.postav{
+  h2{
+    text-align: center;
+    font-size: 35px;
+  }
+  form{
+    text-align: center;
+  }
+}
+} // end! Small devices
+
+
+// Extra small devices (portrait phones, less than 576px)
+// >mobi
+@media (max-width: 575.98px) {
+.postav{
+  h2{
+    text-align: center;
+    font-size: 25px;
+  }
+  form{
+    text-align: center;
+    input[type="text"]{
+      margin-bottom: 20px;
+    }
+
+  }
+}
+} // end! Extra small devices
+///////////////////////////////////////////////////////////
+
