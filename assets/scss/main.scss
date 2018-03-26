@@ -144,8 +144,42 @@ ul { // reset
     }
   }
 }
-
+//block postavshik end
 ///////////////////////////////////////////////////////////
+//block our + start
+
+
+//block our + end
+///////////////////////////////////////////////////////////
+//block imgStuff start
+.imgsBlock{
+  margin-bottom: 20px;
+  h3{
+
+  font-size: 30px;
+  font-family: 'Proxima Nova Bold';
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  
+  }
+  .imgStuff {
+    padding-top: 10px;
+    background-position: center center;
+    background-size: cover;
+    min-height: 180px;
+  }
+  .imgStuff1 { background-image:url('../img/img1.png'); }
+  .imgStuff2 { background-image:url('../img/img2.png'); }
+  .imgStuff3 { background-image:url('../img/img3.png'); }
+  .imgStuff4 { background-image:url('../img/img4.png'); }
+  .imgStuff5 { background-image:url('../img/img5.png'); }
+  .imgStuff6 { background-image:url('../img/img6.png'); }  
+}
+
+//block imgStuff end
+///////////////////////////////////////////////////////////
+
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
@@ -172,6 +206,13 @@ ul { // reset
     text-align: center;
   }
 }
+///////////////////////////////////////////////
+.imgsBlock{
+  h3{
+    text-align: center;
+    font-size: 25px;
+  }
+}
 
 } // end! Medium devices 
 
@@ -187,6 +228,16 @@ ul { // reset
   }
   form{
     text-align: center;
+  }
+}
+///////////////////////////////////////////////
+.imgsBlock{
+  h3{
+    text-align: center;
+    font-size: 22px;
+  }
+  .imgStuff {
+    min-height: 150px;
   }
 }
 } // end! Small devices
@@ -206,6 +257,16 @@ ul { // reset
       margin-bottom: 20px;
     }
 
+  }
+}
+///////////////////////////////////////////////////
+.imgsBlock{
+  h3{
+    text-align: left;
+    font-size: 18px;
+  }
+  .imgStuff {
+    min-height: 120px;
   }
 }
 } // end! Extra small devices

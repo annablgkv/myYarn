@@ -113,6 +113,32 @@ ul {
       border: none;
       display: inline; }
 
+.imgsBlock {
+  margin-bottom: 20px; }
+  .imgsBlock h3 {
+    font-size: 30px;
+    font-family: 'Proxima Nova Bold';
+    font-weight: 600;
+    color: white;
+    line-height: 1.2; }
+  .imgsBlock .imgStuff {
+    padding-top: 10px;
+    background-position: center center;
+    background-size: cover;
+    min-height: 180px; }
+  .imgsBlock .imgStuff1 {
+    background-image: url("../img/img1.png"); }
+  .imgsBlock .imgStuff2 {
+    background-image: url("../img/img2.png"); }
+  .imgsBlock .imgStuff3 {
+    background-image: url("../img/img3.png"); }
+  .imgsBlock .imgStuff4 {
+    background-image: url("../img/img4.png"); }
+  .imgsBlock .imgStuff5 {
+    background-image: url("../img/img5.png"); }
+  .imgsBlock .imgStuff6 {
+    background-image: url("../img/img6.png"); }
+
 /* >magic                                                */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
@@ -124,14 +150,22 @@ ul {
   .postav h2 {
     text-align: center; }
   .postav form {
-    text-align: center; } }
+    text-align: center; }
+  .imgsBlock h3 {
+    text-align: center;
+    font-size: 25px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .postav h2 {
     text-align: center;
     font-size: 35px; }
   .postav form {
-    text-align: center; } }
+    text-align: center; }
+  .imgsBlock h3 {
+    text-align: center;
+    font-size: 22px; }
+  .imgsBlock .imgStuff {
+    min-height: 150px; } }
 
 @media (max-width: 575.98px) {
   .postav h2 {
@@ -140,4 +174,9 @@ ul {
   .postav form {
     text-align: center; }
     .postav form input[type="text"] {
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+  .imgsBlock h3 {
+    text-align: left;
+    font-size: 18px; }
+  .imgsBlock .imgStuff {
+    min-height: 120px; } }
