@@ -141,12 +141,33 @@ ul {
 
 /* >magic                                                */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-brand img {
+    width: 100px; }
+  .nav-link {
+    font-size: 16px !important; }
+  .callUs h3 {
+    font-size: 16px !important; }
+  .callUs a {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px; }
   body {
     background: goldenrod; }
   .block {
     width: 960px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .callUs {
+    margin-left: 0px;
+    margin-top: 30px; }
+  .mainMenu .nav-link {
+    margin-right: 0px; }
+  .nav-item {
+    text-align: center; }
+    .nav-item:first-of-type {
+      margin-top: 15px; }
+  .callUs a {
+    margin: auto; }
   .postav h2 {
     text-align: center; }
   .postav form {
@@ -156,6 +177,25 @@ ul {
     font-size: 25px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-brand img {
+    width: 100px; }
+  .callUs {
+    margin-left: 0px;
+    margin-top: 20px; }
+  .mainMenu .nav-link {
+    font-size: 16px;
+    margin-right: 0px; }
+  .nav-item {
+    text-align: center; }
+    .nav-item:first-of-type {
+      margin-top: 15px; }
+  .callUs h3 {
+    font-size: 16px !important; }
+  .callUs a {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto; }
   .postav h2 {
     text-align: center;
     font-size: 35px; }
@@ -168,6 +208,25 @@ ul {
     min-height: 150px; } }
 
 @media (max-width: 575.98px) {
+  .navbar-brand img {
+    width: 100px; }
+  .callUs {
+    margin-left: 0px;
+    margin-top: 20px; }
+  .mainMenu .nav-link {
+    font-size: 16px;
+    margin-right: 0px; }
+  .nav-item {
+    text-align: center; }
+    .nav-item:first-of-type {
+      margin-top: 15px; }
+  .callUs h3 {
+    font-size: 16px !important; }
+  .callUs a {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto; }
   .postav h2 {
     text-align: center;
     font-size: 25px; }
