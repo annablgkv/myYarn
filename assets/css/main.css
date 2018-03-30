@@ -117,9 +117,31 @@ ul {
   background-image: url("../img/bg1.png");
   background-position: center center;
   background-size: cover;
-  min-height: 500px;
-  padding-top: 200px;
-  padding-bottom: 200px; }
+  min-height: 500px; }
+  .ourPlus .textAndSq h3 {
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: #121216;
+    line-height: 1.2;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px; }
+  .ourPlus .textAndSq .square {
+    margin-top: -50px;
+    margin-left: -5px;
+    border-width: 7px;
+    border-color: #00314a;
+    border-style: solid;
+    background-color: #0090cf;
+    position: absolute;
+    width: 25px;
+    height: 25px; }
+  .ourPlus .arrows {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background-image: url("../img/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat; }
   .ourPlus .bottomShadow {
     position: absolute;
     bottom: 0;
@@ -127,12 +149,13 @@ ul {
     padding: 5px 0;
     background: rgba(59, 59, 58, 0.9); }
   .ourPlus .littleImg {
-    height: 250px;
-    width: 260px;
+    height: 210px;
+    width: 220px;
     background-size: cover;
     position: relative;
     margin-left: 0px;
-    margin: auto; }
+    margin: auto;
+    margin-bottom: 100px; }
   .ourPlus .littleImg1 {
     background-image: url("../img/imgPlus1.png"); }
   .ourPlus .littleImg2 {
@@ -140,9 +163,11 @@ ul {
   .ourPlus .littleImg3 {
     background-image: url("../img/imgPlus3.png"); }
   .ourPlus .littleImg4 {
-    background-image: url("../img/imgPlus4.png"); }
+    background-image: url("../img/imgPlus4.png");
+    margin-right: 50px; }
   .ourPlus .littleImg5 {
-    background-image: url("../img/imgPlus5.png"); }
+    background-image: url("../img/imgPlus5.png");
+    margin-left: 50px; }
   .ourPlus h6 {
     font-size: 22px;
     font-family: "Roboto";
@@ -191,7 +216,9 @@ ul {
   body {
     background: goldenrod; }
   .block {
-    width: 960px; } }
+    width: 960px; }
+  .ourPlus .arrows {
+    background: none !important; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .callUs {

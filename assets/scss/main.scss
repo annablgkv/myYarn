@@ -153,8 +153,41 @@ ul { // reset
   background-position: center center;
   background-size: cover;
   min-height: 500px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  .textAndSq{
+    
+    h3{
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+    line-height: 1.2;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+  
+  }
+  .square {
+    margin-top: -50px;
+    margin-left: -5px;
+    border-width: 7px;
+    border-color: rgb(0, 49, 74);
+    border-style: solid;
+    background-color: rgb(0, 144, 207);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+  
+  .arrows {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background-image: url("../img/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat
+
+  }
   
   .bottomShadow{
     position: absolute;
@@ -164,18 +197,19 @@ ul { // reset
     background: rgba(59, 59, 58, 0.9);
   }
   .littleImg{
-    height: 250px;
-    width: 260px;
+    height: 210px;
+    width: 220px;
     background-size: cover;
     position: relative;
     margin-left: 0px;
     margin: auto; // выровнять по центру только если блок relative
+    margin-bottom: 100px;
   }
   .littleImg1 {background-image: url('../img/imgPlus1.png');}
   .littleImg2 {background-image: url('../img/imgPlus2.png');}
   .littleImg3 {background-image: url('../img/imgPlus3.png');}
-  .littleImg4 {background-image: url('../img/imgPlus4.png');}
-  .littleImg5 {background-image: url('../img/imgPlus5.png');}
+  .littleImg4 {background-image: url('../img/imgPlus4.png'); margin-right: 50px;}
+  .littleImg5 {background-image: url('../img/imgPlus5.png');margin-left: 50px;}
   
   h6{
   font-size: 22px;
@@ -250,6 +284,12 @@ body {
 
 .block {
   width: 960px;
+}
+//block with arrows
+.ourPlus{
+  .arrows{
+    background: none !important;
+  }
 }
 } // end! Large devices
 
