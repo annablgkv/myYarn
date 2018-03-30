@@ -148,12 +148,7 @@ ul { // reset
 //block postavshik end
 ///////////////////////////////////////////////////////////
 //block our + start
-.ourPlus{
-  background-image: url("../img/bg1.png");
-  background-position: center center;
-  background-size: cover;
-  min-height: 500px;
-  .textAndSq{
+.textAndSq{
     
     h3{
     font-size: 24px;
@@ -177,17 +172,21 @@ ul { // reset
     height: 25px;
   }
 }
-
-
-  
-  .arrows {
+.arrows {
     padding-top: 100px;
     padding-bottom: 0px;
     background-image: url("../img/bg2.png");
     background-position: center center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 
-  }
+}
+
+.ourPlus{
+  background-image: url("../img/bg1.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+
   
   .bottomShadow{
     position: absolute;
@@ -224,7 +223,7 @@ ul { // reset
 ///////////////////////////////////////////////////////////
 //block imgStuff start
 .imgsBlock{
-  margin-bottom: 20px;
+  
   h3{
 
   font-size: 30px;
@@ -250,6 +249,116 @@ ul { // reset
 
 //block imgStuff end
 ///////////////////////////////////////////////////////////
+//block service start
+.service{
+  background-color: #fff;
+  .arrows{
+    background-image: url("../img/serviceBg2.png");
+  }
+  .textAndSq{
+    h3{
+    margin-top: -30px;
+    margin-left: 40px;
+  
+  }
+  .square {
+    margin-top: -30px;
+    margin-left: 5px;
+    
+  }
+  }
+  .textAndSq2{
+    margin-bottom: 228px;
+   h3{
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+    line-height: 1.2;
+    position: absolute;
+    margin-top: 133px;
+    text-align: right;
+    margin-left: 510px;
+    
+  }
+  .square {
+    margin-top: 135px;
+    margin-left: 1080px;
+    border-width: 7px;
+    border-color: rgb(0, 49, 74);
+    border-style: solid;
+    background-color: rgb(0, 144, 207);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+  }
+  }
+  h2{
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgb(18, 18, 22);
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+ }
+
+  .serviceImg{
+    height: 210px;
+    width: 220px;
+    background-size: cover;
+    position: relative;
+    margin-left: 0px;
+    margin: auto; // выровнять по центру только если блок relative
+    margin-bottom: 30px;
+    margin-top: 70px;
+ 
+  }
+  .serviceImg1{background-image: url("../img/service1.png");}
+  .serviceImg2{background-image: url("../img/service2.png");}
+  .serviceImg3{background-image: url("../img/service3.png");}
+  a{
+    margin-left: 400px;
+    width: 300px;
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 60%;
+    }
+  }
+  .textAndSq3{
+    margin-bottom: 120px;
+   h3{
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+    line-height: 1.2;
+    position: absolute;
+    margin-top: 30px;
+    text-align: right;
+    margin-left: 830px;
+    
+  }
+  .square {
+    margin-top: 33px;
+    margin-left: 1080px;
+    border-width: 7px;
+    border-color: rgb(0, 49, 74);
+    border-style: solid;
+    background-color: rgb(0, 144, 207);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+  }
+}
+}
+//block servise end
+///////////////////////////////////////////////////////////
+
 
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
@@ -277,18 +386,49 @@ ul { // reset
 }
 // end! main menu nav bar
 
-
-body {
-  background: goldenrod;
-}
-
-.block {
-  width: 960px;
-}
 //block with arrows
 .ourPlus{
   .arrows{
     background: none !important;
+  }
+}
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 330px;
+    width: 300px;
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 300px;
+    }
+    .square {
+      
+      margin-left: 900px;
+    }
+  }
+   .textAndSq3{
+    h3{
+    
+      margin-left: 620px;
+    }
+    .square {
+      
+      margin-left: 900px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
   }
 }
 } // end! Large devices
@@ -340,6 +480,47 @@ body {
 .ourPlus{
   .arrows{
     background: none !important;
+  }
+}
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 200px;
+    width: 300px;
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 20px;
+    }
+    .square {
+      
+      margin-left: 600px;
+    }
+  }
+   .textAndSq3{
+    h3{
+    
+      margin-top: 30px;
+      margin-left: 340px;
+    }
+    .square {
+      
+      margin-left: 600px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
   }
 }
 
@@ -414,6 +595,55 @@ body {
   .littleImg4 {margin: auto;margin-bottom: 100px;}
   .littleImg5 {margin: auto; margin-bottom: 100px;}
 }
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 110px;
+    width: 300px;
+  }
+  .textAndSq{
+    h3{
+      font-size: 19px;
+      
+    }
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 133px;
+      margin-left: 0px;
+      font-size: 19px;
+    }
+    .square {
+      
+      margin-left: 450px;
+    }
+  }
+.textAndSq3{
+    h3{
+    
+      margin-top: 35px;
+      margin-left: 250px;
+      font-size: 19px;
+    }
+    .square {
+      
+      margin-left: 450px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}
 } // end! Small devices
 
 
@@ -487,6 +717,65 @@ body {
   .littleImg4 { margin: auto;margin-bottom: 100px;}
   .littleImg5 {margin: auto; margin-bottom: 100px;}
 }
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 0px;
+    width: 250px;
+  }
+  h2{
+    margin-bottom: 40px;
+  }
+  .serviceImg{
+    margin-top: 40px;
+    height: 160px;
+    width: 180px;
+  }
+  .textAndSq{
+    h3{
+      font-size: 18px;
+      
+    }
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 0px;
+      margin-right: 34px;
+      font-size: 17px;
+    }
+    .square {
+      
+      margin-left: 235px;
+    }
+  }
+.textAndSq3{
+    h3{
+    
+      margin-top: 34px;
+      margin-left: 65px;
+      font-size: 18px;
+    }
+    .square {
+      
+      margin-left: 235px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 80%;
+    }
+  }
+}
+
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
 
