@@ -238,7 +238,9 @@ ul {
     text-align: center; }
   .imgsBlock h3 {
     text-align: center;
-    font-size: 25px; } }
+    font-size: 25px; }
+  .ourPlus .arrows {
+    background: none !important; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand img {
@@ -269,7 +271,17 @@ ul {
     text-align: center;
     font-size: 22px; }
   .imgsBlock .imgStuff {
-    min-height: 150px; } }
+    min-height: 150px; }
+  .ourPlus .arrows {
+    background: none !important; }
+  .ourPlus .littleImg1 {
+    margin-top: 30px; }
+  .ourPlus .littleImg4 {
+    margin: auto;
+    margin-bottom: 100px; }
+  .ourPlus .littleImg5 {
+    margin: auto;
+    margin-bottom: 100px; } }
 
 @media (max-width: 575.98px) {
   .navbar-brand img {
@@ -302,4 +314,14 @@ ul {
     text-align: left;
     font-size: 18px; }
   .imgsBlock .imgStuff {
-    min-height: 120px; } }
+    min-height: 120px; }
+  .ourPlus .arrows {
+    background: none !important; }
+  .ourPlus .littleImg1 {
+    margin-top: 60px; }
+  .ourPlus .littleImg4 {
+    margin: auto;
+    margin-bottom: 100px; }
+  .ourPlus .littleImg5 {
+    margin: auto;
+    margin-bottom: 100px; } }

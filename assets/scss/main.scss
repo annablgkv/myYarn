@@ -336,6 +336,12 @@ body {
     font-size: 25px;
   }
 }
+//block with arrows
+.ourPlus{
+  .arrows{
+    background: none !important;
+  }
+}
 
 } // end! Medium devices 
 
@@ -399,6 +405,14 @@ body {
   .imgStuff {
     min-height: 150px;
   }
+}
+.ourPlus{
+  .arrows{
+    background: none !important;
+  }
+  .littleImg1 {margin-top: 30px;}
+  .littleImg4 {margin: auto;margin-bottom: 100px;}
+  .littleImg5 {margin: auto; margin-bottom: 100px;}
 }
 } // end! Small devices
 
@@ -465,7 +479,14 @@ body {
     min-height: 120px;
   }
 }
-
+.ourPlus{
+  .arrows{
+    background: none !important;
+  }
+  .littleImg1 {margin-top: 60px;}
+  .littleImg4 { margin: auto;margin-bottom: 100px;}
+  .littleImg5 {margin: auto; margin-bottom: 100px;}
+}
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
 
