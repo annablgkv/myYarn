@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
+// Myriad Pro = PT Sans
 
 @font-face {
   font-family: 'BistroScript';
-  src: url('../fonts/BistroScript.ttf')
+  src: url('../fonts/BistroScript.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr400';
+  src: url('../fonts/HelveticaNeueCyr-Thin.woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr600';
+  src: url('../fonts/HelveticaNeueCyr-Medium.woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr700';
+  src: url('../fonts/HelveticaNeueCyr-Bold.woff');
+  font-weight: 700;
 }
 
 @font-face {
@@ -31,7 +52,6 @@ a { // reset
   }
 }
 
-
 ul { // reset
   padding: 0;
   margin: 0;
@@ -41,6 +61,9 @@ ul { // reset
   }
 }
 
+.ymaps-2-1-56-zoom, .gotoymaps__text, .ymaps-2-1-56-controls__control_toolbar, .ymaps-2-1-56-float-button .ymaps-2-1-56-_hidden-text{
+  display: none !important;
+}
 
 .dontTouchMe {	// блокирует выделение текста
   -moz-user-select: none;
@@ -49,6 +72,62 @@ ul { // reset
 	user-select: none;
 }
 ///////////////////////////////////////////////////////////
+// UI form
+.mainFormStyle {
+  h1 {
+    font-size: 30px;
+    font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+  }
+  span {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(132, 132, 132);
+    line-height: 1;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(18, 18, 22);
+    line-height: 1;
+  }
+  h2 {
+    font-size: 18px;
+	  font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+  }
+  input, textarea, select {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.34);
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(79, 79, 78);
+    line-height: 1.2;
+    padding-left: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    &::placeholder {
+      color: #000;
+    }
+  }
+  input[type="text"] {
+    border-right: #008dcf solid 8px;
+  }
+  input[type="submit"] {
+    background: #008dcf;
+    cursor: pointer;
+    color: #fff;
+  }
+  textarea {
+    border-bottom: #008dcf solid 8px;
+  }
+}
+///////////////////////////////////////////////////////////
+
+
+
+
 //button
 .primaryBtn{
   font-size: 18px;
@@ -79,7 +158,7 @@ ul { // reset
   }
   .navbar-brand{
     margin-right: 60px;
-  } 
+  }
 }
 
 .callUs {
@@ -119,7 +198,7 @@ ul { // reset
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: right;
-    
+
   }
   form{
     margin-top: 50px;
@@ -149,7 +228,7 @@ ul { // reset
 ///////////////////////////////////////////////////////////
 //block our + start
 .textAndSq{
-    
+
     h3{
     font-size: 24px;
     font-family: 'Proxima Nova Bold';
@@ -158,7 +237,7 @@ ul { // reset
     position: absolute;
     margin-top: -50px;
     margin-left: 30px;
-  
+
   }
   .square {
     margin-top: -50px;
@@ -187,7 +266,7 @@ ul { // reset
   background-size: cover;
   min-height: 500px;
 
-  
+
   .bottomShadow{
     position: absolute;
     bottom: 0;
@@ -209,7 +288,7 @@ ul { // reset
   .littleImg3 {background-image: url('../img/imgPlus3.png');}
   .littleImg4 {background-image: url('../img/imgPlus4.png'); margin-right: 50px;}
   .littleImg5 {background-image: url('../img/imgPlus5.png');margin-left: 50px;}
-  
+
   h6{
   font-size: 22px;
   font-family: "Roboto";
@@ -223,7 +302,7 @@ ul { // reset
 ///////////////////////////////////////////////////////////
 //block imgStuff start
 .imgsBlock{
-  
+
   h3{
 
   font-size: 30px;
@@ -231,7 +310,7 @@ ul { // reset
   font-weight: 600;
   color: rgb(255, 255, 255);
   line-height: 1.2;
-  
+
   }
   .imgStuff {
     padding-top: 10px;
@@ -244,7 +323,7 @@ ul { // reset
   .imgStuff3 { background-image:url('../img/img3.png'); }
   .imgStuff4 { background-image:url('../img/img4.png'); }
   .imgStuff5 { background-image:url('../img/img5.png'); }
-  .imgStuff6 { background-image:url('../img/img6.png'); }  
+  .imgStuff6 { background-image:url('../img/img6.png'); }
 }
 
 //block imgStuff end
@@ -259,12 +338,12 @@ ul { // reset
     h3{
     margin-top: -30px;
     margin-left: 40px;
-  
+
   }
   .square {
     margin-top: -30px;
     margin-left: 5px;
-    
+
   }
   }
   .textAndSq2{
@@ -278,7 +357,7 @@ ul { // reset
     margin-top: 133px;
     text-align: right;
     margin-left: 510px;
-    
+
   }
   .square {
     margin-top: 135px;
@@ -311,7 +390,7 @@ ul { // reset
     margin: auto; // выровнять по центру только если блок relative
     margin-bottom: 30px;
     margin-top: 70px;
- 
+
   }
   .serviceImg1{background-image: url("../img/service1.png");}
   .serviceImg2{background-image: url("../img/service2.png");}
@@ -341,7 +420,7 @@ ul { // reset
     margin-top: 30px;
     text-align: right;
     margin-left: 830px;
-    
+
   }
   .square {
     margin-top: 33px;
@@ -361,10 +440,10 @@ ul { // reset
 //block with carousel
 .carousBlock{
   background-image: url("../img/sliderBg.png");
-  background-size: cover; 
+  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
-  
+
   .owl-next i, .owl-prev i {
     color: #fff;
     font-size: 28px;
@@ -389,15 +468,132 @@ ul { // reset
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
-  
+
 }
+// footer
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 2px solid #eee;
+
+  h1 {
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr700";
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  ul {
+    li {
+      list-style: none;
+      margin-top: 10px;
+      &:first-of-type {
+        margin-top: 20px;
+      }
+      a {
+        font-size: 16px;
+        font-family: "Roboto";
+        color: rgb(111, 111, 111);
+      }
+    }
+  }
+
+  .miniFooter {
+    li {
+      text-align: right;
+      span {
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(132, 132, 132);
+      }
+      a {
+        font-family: "HelveticaNeueCyr400";
+        color: #000;
+      }
+    }
+  }
+
+  img {
+    margin-top: 55px;
+    width: 100%;
+  }
+
+  .text-center {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(121, 121, 121);
+    line-height: 1.2;
+    a {
+      font-family: 'PT Sans', sans-serif;
+      color: rgb(121, 121, 121);
+      text-decoration: underline;
+    }
+  }
+
+}
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+// page Contact
+.blockBigContact {
+  height: 600px;
+  position: relative;
+  .blockBigContactForm {
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    // background: #fff;
+    form {
+      width: 540px;
+      height: 460px;
+      background: #fff;
+      padding: 25px;
+      h1 {
+        margin-bottom: 20px;
+      }
+      p {
+        margin-top: 2px;
+        a {
+          color: rgb(18, 18, 22);
+        }
+      }
+      h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .formGrid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 165px 165px 1fr;
+        grid-column-gap: 18px;
+        grid-row-gap: 18px;
+        grid-template-areas:
+        ". . ."
+        "textarea textarea select"
+        "textarea textarea ."
+        ;
+      }
+      select {
+        grid-area: select;
+      }
+      textarea {
+        grid-area: textarea;
+        height: 115px;
+      }
+    }
+  }
+}
+///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 // >desk
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-//main menu nav bar 
+//main menu nav bar
 .navbar-brand img {
   width: 100px;
 }
@@ -417,6 +613,11 @@ ul { // reset
 }
 // end! main menu nav bar
 
+// footer
+footer ul li a {
+  font-size: 13px;
+}
+
 //block with arrows
 .ourPlus{
   .arrows{
@@ -432,22 +633,22 @@ ul { // reset
   }
   .textAndSq2{
     h3{
-    
+
       margin-top: 130px;
       margin-left: 300px;
     }
     .square {
-      
+
       margin-left: 900px;
     }
   }
    .textAndSq3{
     h3{
-    
+
       margin-left: 620px;
     }
     .square {
-      
+
       margin-left: 900px;
     }
   }
@@ -467,19 +668,29 @@ ul { // reset
 .owl-carousel{
   padding-left: 50px;
   padding-right: 50px;
+
 }
 .carousBlock{
   .owl-prev {
     left: 0;
     top: 50px;
   }
-
   .owl-next {
     right: 0;
     top: 50px;
-    
+
   }
+
 }
+
+
+.blockBigContact .blockBigContactForm {
+  left: 50%;
+}
+
+
+
+
 
 } // end! Large devices
 
@@ -487,7 +698,7 @@ ul { // reset
 // Medium devices (tablets, 768px and up)
 // >tablet
 @media (min-width: 768px) and (max-width: 991.98px){
-//main menu nav bar 
+//main menu nav bar
 .callUs {
   margin-left: 0px;
   margin-top: 30px;
@@ -509,7 +720,7 @@ ul { // reset
 .callUs a {
   margin: auto;
 }
-// end! main menu nav bar 
+// end! main menu nav bar
 ///////////////////////////////////////////////////
 .postav{
   h2{
@@ -542,23 +753,23 @@ ul { // reset
   }
   .textAndSq2{
     h3{
-    
+
       margin-top: 130px;
       margin-left: 20px;
     }
     .square {
-      
+
       margin-left: 600px;
     }
   }
    .textAndSq3{
     h3{
-    
+
       margin-top: 30px;
       margin-left: 340px;
     }
     .square {
-      
+
       margin-left: 600px;
     }
   }
@@ -587,18 +798,37 @@ ul { // reset
   .owl-next {
     right: 0;
     top: 80px;
-    
+
   }
 }
 
-} // end! Medium devices 
+// footer
+footer {
+  .text-right {
+    text-align: left !important;
+    margin-top: 30px;
+  }
+
+  .miniFooter  {
+    li {
+      text-align: left;
+    }
+  }
+}
+
+.blockBigContact .blockBigContactForm {
+  left: 50%;
+}
+
+
+} // end! Medium devices
 
 
 
 // Small devices (landscape phones, 576px and up)
 // >smart
 @media (min-width: 576px) and (max-width: 767.98px) {
-//main menu nav bar 
+//main menu nav bar
 .navbar-brand img {
   width: 100px;
 }
@@ -633,7 +863,7 @@ ul { // reset
   margin: auto;
 }
 
-// end! main menu nav bar 
+// end! main menu nav bar
 ///////////////////////////////////////////////////
 .postav{
   h2{
@@ -673,30 +903,30 @@ ul { // reset
   .textAndSq{
     h3{
       font-size: 19px;
-      
+
     }
   }
   .textAndSq2{
     h3{
-    
+
       margin-top: 133px;
       margin-left: 0px;
       font-size: 19px;
     }
     .square {
-      
+
       margin-left: 450px;
     }
   }
 .textAndSq3{
     h3{
-    
+
       margin-top: 35px;
       margin-left: 250px;
       font-size: 19px;
     }
     .square {
-      
+
       margin-left: 450px;
     }
   }
@@ -725,10 +955,35 @@ ul { // reset
   .owl-next {
     right: 0;
     top: 90px;
-    
+
   }
 }
 
+// footer
+footer {
+  .text-right {
+    text-align: left !important;
+    margin-top: 30px;
+  }
+
+  .miniFooter  {
+    li {
+      text-align: left;
+    }
+  }
+}
+
+footer ul li a {
+  font-size: 13px;
+}
+
+footer img {
+  margin-top: 88px;
+}
+
+.blockBigContact .blockBigContactForm {
+  left: 50%;
+}
 } // end! Small devices
 
 
@@ -736,7 +991,7 @@ ul { // reset
 // >mobi
 @media (max-width: 575.98px) {
 
-//main menu nav bar 
+//main menu nav bar
 .navbar-brand img {
   width: 100px;
 }
@@ -770,7 +1025,7 @@ ul { // reset
   line-height: 30px;
   margin: auto;
 }
-// end! main menu nav bar 
+// end! main menu nav bar
 ///////////////////////////////////////////////////
 .postav{
   h2{
@@ -821,31 +1076,31 @@ ul { // reset
   .textAndSq{
     h3{
       font-size: 18px;
-      
+
     }
   }
   .textAndSq2{
     h3{
-    
+
       margin-top: 130px;
       margin-left: 0px;
       margin-right: 34px;
       font-size: 17px;
     }
     .square {
-      
+
       margin-left: 235px;
     }
   }
 .textAndSq3{
     h3{
-    
+
       margin-top: 34px;
       margin-left: 65px;
       font-size: 18px;
     }
     .square {
-      
+
       margin-left: 235px;
     }
   }
@@ -862,27 +1117,74 @@ ul { // reset
 }
 
 
-.owl-carousel{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.carousBlock{
-  .owl-prev {
-    left: 0;
-    top: 90px;
+// footer
+footer {
+  padding-top: 0;
+
+  h1 {
+    margin-top: 30px;
   }
 
-  .owl-next {
-    right: 0;
-    top: 90px;
-    
+  .text-right {
+    text-align: left !important;
+  }
+
+  .miniFooter  {
+    li {
+      text-align: left;
+    }
   }
 }
-.btnOnly{
-  a{
-    width: 250px;
+
+footer ul li a {
+  font-size: 13px;
+}
+
+footer .miniFooter li span {
+  font-size: 13px;
+}
+
+footer img {
+  margin-top: 20px;
+}
+
+#ymaps1522419238378902684 {
+  display: none !important;
+}
+
+.blockBigContact {
+  height: auto;
+  .blockBigContactForm {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    form {
+      width: 100%;
+      height: auto;
+      .formGrid {
+        grid-template-columns: 1fr;
+      grid-row-gap: 18px;
+      grid-template-areas:
+        "."
+        "."
+        "textarea"
+        "select"
+        "."
+      ;
+      }
+    }
   }
 }
+
+.mainFormStyle span {
+  font-size: 13px;
+}
+
+.mainFormStyle p {
+  font-size: 13px;
+}
+
+
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
-

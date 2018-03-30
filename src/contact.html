@@ -1,6 +1,147 @@
-title = "Контакты"
-url = "/contact"
-layout = "default"
-is_hidden = 0
-==
-{% partial "menu" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Connection CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+
+  <title></title>
+</head>
+<body>
+<!-- block menu start -->
+<div class="mainMenu">
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container"> <!-- menu fixed (start) -->
+      <a class="navbar-brand" href="/src/index.html"><img src="../assets/img/logo.png" alt=""></a>
+      <!-- mobi -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- mobi (end) -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav"> <!-- mx-auto -->
+          <li class="nav-item"><a class="nav-link" href="/src/index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">Продукция</a></li>          
+          <li class="nav-item"><a class="nav-link" href="/information.html">Сервис</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Калькулятор</a></li>  
+          <li class="nav-item active"><a class="nav-link" href="/src/contact.html">Контакты</a></li>                                                                   
+        </ul>
+        <div class="callUs">
+          <h3>+7 (863) 206-72-34</h3>
+          <a href="#">Заказать звонок</a>
+        </div>
+      </div>
+    </div> <!-- menu fixed (end) -->
+  </nav>
+</div>
+<!-- block menu end -->
+
+
+<!-- block bigContact (start) -->
+<div class="blockBigContact">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A31a19acb9dd62b46c4a063fbbc6aeaa413c53faa5f6f62cfa01baa9223bedb64&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+
+  <div class="blockBigContactForm">
+    <form action="" class="mainFormStyle">
+      <h1>Контакты</h1>
+      <span>Адрес:</span>
+      <p>г. Ростов-на-Дону, ул. Дачная 97/85</p>
+      <span>Телефон:</span>
+      <p><a href="#">+7 (863) 206 72 34</a></p>
+      <span>e-mail:</span>
+      <p><a href="#">info@ink-groupp.ru</a></p>
+      <h2>Оставить заявку</h2>
+      <div class="formGrid">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Телефон">
+        <input type="submit" value="Перезвоните мне">
+        <textarea placeholder="Сообщение"></textarea>
+        <select>
+          <option value="day">Сегодня</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+</div>
+<!-- block bigContact (end) -->
+
+
+<!-- footer (start) -->
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <!-- 1 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h1>Продукция</h1>
+        <ul>
+          <li><a href="#">Пластинчатые теплообменники</a></li>
+          <li><a href="#">Кожухотрубные теплообменники</a></li>
+          <li><a href="#">Рекуператоры</a></li>
+          <li><a href="#">Тепловая автоматика</a></li>
+          <li><a href="#">Насосное оборудование</a></li>
+        </ul>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h1>Калькулятор</h1>
+        <ul>
+          <li><a href="#">Расчет теплообменного оборудования</a></li>
+          <li><a href="#">Расчет насосного <br> оборудования</a></li>
+        </ul>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h1 class="text-right">Контакты</h1>
+        <ul class="miniFooter">
+          <li>
+            <span>Адрес:</span> <br>
+            <a href="#">г. Ростов-на-Дону, ул. Дачная 97/85</a>
+          </li>
+          <li>
+            <span>Телефон:</span> <br>
+            <a href="#">+7 (863) 206 72 34</a>
+          </li>
+          <li>
+            <span>e-mail:</span> <br>
+            <a href="#">info@ink-groupp.ru</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="./contact.html">
+         <img src="../assets/img/footerMap.png" alt="">
+        </a>
+      </div>
+
+
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col">
+        <p class="text-center">(c) Все права защищены 2018 год. <a href="#">Политика конфиденциальности</a>.</p>   
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</footer>
+<!-- footer (end) -->
+
+
+
+<!-- Connection JavaScript -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
