@@ -113,6 +113,68 @@ ul {
       border: none;
       display: inline; }
 
+.ourPlus {
+  background-image: url("../img/bg1.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px; }
+  .ourPlus .textAndSq h3 {
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: #121216;
+    line-height: 1.2;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px; }
+  .ourPlus .textAndSq .square {
+    margin-top: -50px;
+    margin-left: -5px;
+    border-width: 7px;
+    border-color: #00314a;
+    border-style: solid;
+    background-color: #0090cf;
+    position: absolute;
+    width: 25px;
+    height: 25px; }
+  .ourPlus .arrows {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background-image: url("../img/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .ourPlus .bottomShadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    background: rgba(59, 59, 58, 0.9); }
+  .ourPlus .littleImg {
+    height: 210px;
+    width: 220px;
+    background-size: cover;
+    position: relative;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 100px; }
+  .ourPlus .littleImg1 {
+    background-image: url("../img/imgPlus1.png"); }
+  .ourPlus .littleImg2 {
+    background-image: url("../img/imgPlus2.png"); }
+  .ourPlus .littleImg3 {
+    background-image: url("../img/imgPlus3.png"); }
+  .ourPlus .littleImg4 {
+    background-image: url("../img/imgPlus4.png");
+    margin-right: 50px; }
+  .ourPlus .littleImg5 {
+    background-image: url("../img/imgPlus5.png");
+    margin-left: 50px; }
+  .ourPlus h6 {
+    font-size: 22px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.2;
+    text-align: center; }
+
 .imgsBlock {
   margin-bottom: 20px; }
   .imgsBlock h3 {
@@ -154,7 +216,9 @@ ul {
   body {
     background: goldenrod; }
   .block {
-    width: 960px; } }
+    width: 960px; }
+  .ourPlus .arrows {
+    background: none !important; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .callUs {
@@ -174,7 +238,9 @@ ul {
     text-align: center; }
   .imgsBlock h3 {
     text-align: center;
-    font-size: 25px; } }
+    font-size: 25px; }
+  .ourPlus .arrows {
+    background: none !important; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand img {
@@ -205,7 +271,17 @@ ul {
     text-align: center;
     font-size: 22px; }
   .imgsBlock .imgStuff {
-    min-height: 150px; } }
+    min-height: 150px; }
+  .ourPlus .arrows {
+    background: none !important; }
+  .ourPlus .littleImg1 {
+    margin-top: 30px; }
+  .ourPlus .littleImg4 {
+    margin: auto;
+    margin-bottom: 100px; }
+  .ourPlus .littleImg5 {
+    margin: auto;
+    margin-bottom: 100px; } }
 
 @media (max-width: 575.98px) {
   .navbar-brand img {
@@ -238,4 +314,14 @@ ul {
     text-align: left;
     font-size: 18px; }
   .imgsBlock .imgStuff {
-    min-height: 120px; } }
+    min-height: 120px; }
+  .ourPlus .arrows {
+    background: none !important; }
+  .ourPlus .littleImg1 {
+    margin-top: 60px; }
+  .ourPlus .littleImg4 {
+    margin: auto;
+    margin-bottom: 100px; }
+  .ourPlus .littleImg5 {
+    margin: auto;
+    margin-bottom: 100px; } }
