@@ -251,6 +251,7 @@ ul { // reset
 ///////////////////////////////////////////////////////////
 //block service start
 .service{
+  background-color: #fff;
   .arrows{
     background-image: url("../img/serviceBg2.png");
   }
@@ -385,18 +386,49 @@ ul { // reset
 }
 // end! main menu nav bar
 
-
-body {
-  background: goldenrod;
-}
-
-.block {
-  width: 960px;
-}
 //block with arrows
 .ourPlus{
   .arrows{
     background: none !important;
+  }
+}
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 330px;
+    width: 300px;
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 300px;
+    }
+    .square {
+      
+      margin-left: 900px;
+    }
+  }
+   .textAndSq3{
+    h3{
+    
+      margin-left: 620px;
+    }
+    .square {
+      
+      margin-left: 900px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
   }
 }
 } // end! Large devices
@@ -448,6 +480,47 @@ body {
 .ourPlus{
   .arrows{
     background: none !important;
+  }
+}
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 200px;
+    width: 300px;
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 20px;
+    }
+    .square {
+      
+      margin-left: 600px;
+    }
+  }
+   .textAndSq3{
+    h3{
+    
+      margin-top: 30px;
+      margin-left: 340px;
+    }
+    .square {
+      
+      margin-left: 600px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
   }
 }
 
@@ -522,6 +595,55 @@ body {
   .littleImg4 {margin: auto;margin-bottom: 100px;}
   .littleImg5 {margin: auto; margin-bottom: 100px;}
 }
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 110px;
+    width: 300px;
+  }
+  .textAndSq{
+    h3{
+      font-size: 19px;
+      
+    }
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 133px;
+      margin-left: 0px;
+      font-size: 19px;
+    }
+    .square {
+      
+      margin-left: 450px;
+    }
+  }
+.textAndSq3{
+    h3{
+    
+      margin-top: 35px;
+      margin-left: 250px;
+      font-size: 19px;
+    }
+    .square {
+      
+      margin-left: 450px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}
 } // end! Small devices
 
 
@@ -595,6 +717,65 @@ body {
   .littleImg4 { margin: auto;margin-bottom: 100px;}
   .littleImg5 {margin: auto; margin-bottom: 100px;}
 }
+
+//block services
+.service{
+  background: none !important;
+  a{
+    margin-left: 0px;
+    width: 250px;
+  }
+  h2{
+    margin-bottom: 40px;
+  }
+  .serviceImg{
+    margin-top: 40px;
+    height: 160px;
+    width: 180px;
+  }
+  .textAndSq{
+    h3{
+      font-size: 18px;
+      
+    }
+  }
+  .textAndSq2{
+    h3{
+    
+      margin-top: 130px;
+      margin-left: 0px;
+      margin-right: 34px;
+      font-size: 17px;
+    }
+    .square {
+      
+      margin-left: 235px;
+    }
+  }
+.textAndSq3{
+    h3{
+    
+      margin-top: 34px;
+      margin-left: 65px;
+      font-size: 18px;
+    }
+    .square {
+      
+      margin-left: 235px;
+    }
+  }
+  .ourPartners{
+    margin-bottom: 0px;
+    a {
+      margin: 0;
+      width: auto;
+    }
+    img {
+      width: 80%;
+    }
+  }
+}
+
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
 
