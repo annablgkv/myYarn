@@ -160,19 +160,23 @@ ul { // reset
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 260px;
-    height: 40px;
-    background: rgb(59, 59, 58);
+    padding: 5px 0;
+    background: rgba(59, 59, 58, 0.9);
   }
   .littleImg{
-    background-image: url("../img/imgPlus1.png");
-    position: relative;
-    background: no-repeat;
     height: 250px;
-    width: 100%;
+    width: 260px;
+    background-size: cover;
+    position: relative;
     margin-left: 0px;
-    
+    margin: auto; // выровнять по центру только если блок relative
   }
+  .littleImg1 {background-image: url('../img/imgPlus1.png');}
+  .littleImg2 {background-image: url('../img/imgPlus2.png');}
+  .littleImg3 {background-image: url('../img/imgPlus3.png');}
+  .littleImg4 {background-image: url('../img/imgPlus4.png');}
+  .littleImg5 {background-image: url('../img/imgPlus5.png');}
+  
   h6{
   font-size: 22px;
   font-family: "Roboto";
