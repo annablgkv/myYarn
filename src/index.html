@@ -327,6 +327,18 @@
 <!-- block with carousel end -->
 
 
+<!-- block with onlyBtn start -->
+<div class="btnOnly">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a href="#" class="primaryBtn">Заказать обратный звонок</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- block with onlyBtn end -->
+
 <!-- Connection JavaScript -->
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/popper.min.js"></script>
@@ -338,11 +350,24 @@
     nav: true,
     dots: false,
     margin: 50,
-    items: 6,
     navText: [
       '<i class="fas fa-chevron-left"></i>', 
       '<i class="fas fa-chevron-right"></i>'
-    ]
+    ],
+    responsive: {
+      0: {
+        items: 1
+      },
+      500: {
+        items: 2
+      },
+      700: {
+        items: 3
+      },
+      900: {
+        items: 6
+      }
+    } // end! responsive
   })
 </script>
 
