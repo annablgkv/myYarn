@@ -148,7 +148,39 @@ ul { // reset
 //block postavshik end
 ///////////////////////////////////////////////////////////
 //block our + start
-
+.ourPlus{
+  background-image: url("../img/bg1.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+  .bottomShadow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 40px;
+    background: rgb(59, 59, 58);
+  }
+  .littleImg{
+    background-image: url("../img/imgPlus1.png");
+    position: relative;
+    background: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin-left: 0px;
+    
+  }
+  h6{
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+ }
+}
 
 //block our + end
 ///////////////////////////////////////////////////////////

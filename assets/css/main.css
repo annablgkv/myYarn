@@ -113,6 +113,34 @@ ul {
       border: none;
       display: inline; }
 
+.ourPlus {
+  background-image: url("../img/bg1.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px; }
+  .ourPlus .bottomShadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 40px;
+    background: #3b3b3a; }
+  .ourPlus .littleImg {
+    background-image: url("../img/imgPlus1.png");
+    position: relative;
+    background: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin-left: 0px; }
+  .ourPlus h6 {
+    font-size: 22px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.2;
+    text-align: center; }
+
 .imgsBlock {
   margin-bottom: 20px; }
   .imgsBlock h3 {
