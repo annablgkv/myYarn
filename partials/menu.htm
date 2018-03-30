@@ -1,0 +1,29 @@
+description = "Главное меню"
+==
+<!-- block menu start -->
+<div class="mainMenu">
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container"> <!-- menu fixed (start) -->
+      <a class="navbar-brand" href="{{ 'home'|page }}"><img src="{{ 'assets/img/logo.png'|theme }}" alt="logo"></a>
+      <!-- mobi -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- mobi (end) -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav"> <!-- mx-auto -->
+          <li class="nav-item {% if this.page.id == 'home' %}active{% endif %}"><a class="nav-link" href="{{ 'home'|page }}">Главная</a></li>
+          <li class="nav-item {% if this.page.id == 'production' %}active{% endif %}"><a class="nav-link" href="{{ 'production'|page }}">Продукция</a></li>          
+          <li class="nav-item {% if this.page.id == 'service' %}active{% endif %}"><a class="nav-link" href="{{ 'service'|page }}">Сервис</a></li>
+          <li class="nav-item {% if this.page.id == 'calc' %}active{% endif %}"><a class="nav-link" href="{{ 'calc'|page }}">Калькулятор</a></li>  
+          <li class="nav-item {% if this.page.id == 'contact' %}active{% endif %}"><a class="nav-link" href="{{ 'contact'|page }}">Контакты</a></li>                                                                   
+        </ul>
+        <div class="callUs">
+          <h3>+7 (863) 206-72-34</h3>
+          <a href="#">Заказать звонок</a>
+        </div>
+      </div>
+    </div> <!-- menu fixed (end) -->
+  </nav>
+</div>
+<!-- block menu end -->
