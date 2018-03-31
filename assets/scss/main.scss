@@ -725,6 +725,42 @@ footer {
     }
   }
 }
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url("../img/bg3pages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: 1px solid #000;
+h2{
+  font-size: 30px;
+  font-family: "Proxima Nova Bold";
+  color: rgb(18, 18, 22);
+  line-height: 1.2;
+  margin-bottom: 120px;
+}
+h3{
+  font-size: 20px;
+  font-family: "Proxima Nova Bold";
+  color: rgb(18, 18, 22);
+  line-height: 1.8;
+  text-align: left;
+}
+li{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(62, 62, 62);
+  line-height: 1.8;
+}
+a{
+  margin-top: 180px;
+  width: 30%;
+}
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
@@ -826,6 +862,12 @@ footer ul li a {
 }
 
 
+
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+  padding-left: 30px;
+}
 
 
 
@@ -965,6 +1007,18 @@ footer {
       grid-template-columns: 200px 200px 150px;
     }
   }
+}
+
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+height: 600px;
+a{
+  margin-top: 100px;
+  width: 30%;
+}
 }
 } // end! Medium devices
 
@@ -1144,6 +1198,18 @@ footer img {
       grid-area: sub;
     }
   }
+}
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+height: 645px;
+
+a{
+  margin-top: 20px;
+  width: 45%;
+}
 }
 } // end! Small devices
 
@@ -1389,5 +1455,25 @@ footer img {
     
   }
 }
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+background-image: url("../img/m.png");
+text-align: center;
+h2{
+  margin-bottom: 50px;
+}
+li{
+  margin-left: 40px;
+}
+a{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 85%;
+}
+}
+
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
