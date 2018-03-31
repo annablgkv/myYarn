@@ -193,6 +193,11 @@
 
 <!-- magicForm (start) -->
 <div id="magicForm">
+
+  <div class="titleBlock">
+    <h1>Заполните форму для<br> расчета стоимости оборудования</h1>    
+  </div>
+
   <form>
 
     <div class="container">
@@ -237,22 +242,63 @@
         <div class="row">
           <div class="col">
 
-            <div class="tab-content">
-              <!-- 1 -->
-              <div class="tab-pane active" id="magic1" role="tabpanel" aria-labelledby="magic1-tab">
-                
-              </div> <!-- end! magic -->
+            <div class="magicFormContainer">
+              <div class="tab-content">
+                <!-- 1 -->
+                <div class="tab-pane active" id="magic1" role="tabpanel" aria-labelledby="magic1-tab">
+                  <div class="magicFormList magicFormList1">
 
-              <!-- 2 -->
-              <div class="tab-pane" id="magic2" role="tabpanel" aria-labelledby="magic2-tab">
+                    <!-- 1 -->
+                    <input type="text" placeholder="Имя">
+                    <select>
+                      <option value="first">Варианты выбора</option>
+                    </select>
+                    <input type="range" min="0" max="100" step="1" value="50">
+                    
+                    <!-- 2 -->
+                    <input type="text" placeholder="Параметр с конкретной мерой м2">
+                    <p>
+                      <input type="checkbox">
+                      <input type="checkbox">
+                      Выбор да/нет                      
+                    </p>
+                    <p>
+                      <!-- space -->
+                    </p>
 
-              </div> <!-- end! magic -->
+                    <!-- 3 -->
+                    <textarea rows="10" placeholder="Полее ввода длинного текста"></textarea>
+                    <p>
+                      Мнодественный выбор: <br>
+                      <input type="checkbox"> Пункт1 <br>
+                      <input type="checkbox"> Пункт2 <br>
+                      <input type="checkbox"> Пункт3                      
+                    </p>
+                    <p><!-- space --></p>
 
-              <!-- 3 -->
-              <div class="tab-pane" id="magic3" role="tabpanel" aria-labelledby="magic3-tab">
+                    <!-- 4 -->
+                    <p><!-- space --></p>
+                    <p><!-- space --></p>
+                    <input type="submit" value="Расчитать">                                        
 
-              </div> <!-- end! magic -->
-            </div> <!-- tab-content -->
+                  </div> <!-- list -->
+                </div> <!-- end! magic -->
+
+                <!-- 2 -->
+                <div class="tab-pane" id="magic2" role="tabpanel" aria-labelledby="magic2-tab">
+                  <div class="magicFormList magicFormList2">
+                    magic list 2
+                  </div> <!-- list -->
+                </div> <!-- end! magic -->
+
+                <!-- 3 -->
+                <div class="tab-pane" id="magic3" role="tabpanel" aria-labelledby="magic3-tab">
+                  <div class="magicFormList magicFormList3">
+                    magic list 3                    
+                  </div> <!-- list -->
+                </div> <!-- end! magic -->
+              </div> <!-- tab-content -->
+            </div> <!-- mag container -->
 
           </div> <!-- col -->
         </div> <!-- row -->
