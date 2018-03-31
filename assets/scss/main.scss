@@ -806,6 +806,53 @@ a{
    
 
 }
+
+//page nasosnoe oborudovanie
+//block header stuff
+.headerStuff1{
+  background-image: url("../img/bg1armour.png");
+  background-size: cover;
+  border-bottom: 0.5px solid #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  h2{
+  font-size: 30px;
+  color: rgb(18, 18, 22);
+  font-family: 'Proxima Nova Bold';
+  line-height: 1.2;
+  }
+  p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(18, 18, 22);
+  line-height: 1.2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  a{
+    width: 50%;
+  }
+  img{
+    width: 100%;
+    margin-top: 47px;
+  }
+}
+
+.postavimNasos{
+  h2{
+    font-size: 30px;
+    color: rgb(18, 18, 22);
+    font-family: 'Proxima Nova Bold';
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .postavNasos{
+    background-image: url("../img/nasos1.png");
+    background-size: cover;
+  }
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
@@ -1561,6 +1608,19 @@ a{
    h3{
      font-size: 21px;
    }
+  }
+}
+
+//block headerStuff
+.headerStuff1{
+  h2{
+  font-size: 26px;
+  }
+  p{
+  font-size: 14px;
+  }
+  a{
+    width: 90%;
   }
 }
 
