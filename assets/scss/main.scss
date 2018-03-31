@@ -617,6 +617,47 @@ footer {
     margin-top: 48px;
   }
 }
+//block products
+.productStuff{
+  padding-top: 30px;
+  .productDesc{
+    margin-bottom: 50px;
+  }
+  h1{
+    font-size: 24px;
+    font-family: 'Proxima Nova Bold';
+    color: rgb(18, 18, 22);
+    line-height: 1.2;
+    text-align: center !important;  
+    margin-bottom: 30px;
+  }
+  img{
+    width: 100%;
+   
+  }
+  .textBox{
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    padding-bottom: 10px;
+    h2{
+      font-size: 16px;
+      font-family: "Roboto";
+      color: rgb(18, 18, 22);
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 14px;
+      font-family: "Roboto";
+      color: rgb(18, 18, 22);
+      line-height: 1.2;
+    } 
+    }
+  .primaryBtn{
+    width: 60%;
+    float: right;
+  }
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
