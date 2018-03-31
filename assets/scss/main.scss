@@ -124,7 +124,36 @@ ul { // reset
   }
 }
 ///////////////////////////////////////////////////////////
+// UI slider
+.owl-next i, .owl-prev i {
+  color: #000;
+  font-size: 28px;
+}
+.owl-prev {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.owl-next {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 
+@media (min-width: 280px) and (max-width: 992px) {
+  .owl-carousel {
+    padding: 0 40px;
+  }
+  .owl-prev {
+    left: 0;
+  }
+  .owl-next {
+    right: 0;
+  }
+}
+///////////////////////////////////////////////////////////
 
 
 
@@ -443,22 +472,9 @@ ul { // reset
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
-
-  .owl-next i, .owl-prev i {
+  .owl-prev i, .owl-next i {
     color: #fff;
-    font-size: 28px;
   }
-  .owl-prev {
-    position: absolute;
-    left: -40px;
-    top: 80px;
-  }
-  .owl-next {
-    position: absolute;
-    right: -40px;
-    top: 80px;
-  }
-
 }
 
 //block onlyBtn
@@ -680,6 +696,35 @@ footer {
     width: 100%;
   }
 }
+//block with carousel
+.postavshikiArmour{
+  padding-bottom: 60px;
+  h2{
+  font-size: 24px;
+  font-family: "Proxima Nova Bold";
+  color: rgb(18, 18, 22);
+  text-align: center;
+  margin-bottom: 80px;
+  }
+}
+//block with form at the end of page
+.formAtEnd{
+  padding-bottom: 60px;
+  h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  form{
+    width: 650px;
+    margin: auto;
+    .formGrid {
+      display: grid;
+      grid-template-columns: 250px 250px 150px;
+      grid-column-gap: 30px;
+    }
+  }
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
@@ -767,11 +812,9 @@ footer ul li a {
 .carousBlock{
   .owl-prev {
     left: 0;
-    top: 50px;
   }
   .owl-next {
     right: 0;
-    top: 50px;
 
   }
 
@@ -886,12 +929,10 @@ footer ul li a {
 .carousBlock{
   .owl-prev {
     left: 0;
-    top: 80px;
   }
 
   .owl-next {
     right: 0;
-    top: 80px;
 
   }
 }
@@ -915,6 +956,16 @@ footer {
 }
 
 
+
+//block with form at the end of page
+.formAtEnd{
+  form{
+    width: 550px;
+    .formGrid {
+      grid-template-columns: 200px 200px 150px;
+    }
+  }
+}
 } // end! Medium devices
 
 
@@ -1043,12 +1094,10 @@ footer {
 .carousBlock{
   .owl-prev {
     left: 0;
-    top: 90px;
   }
 
   .owl-next {
     right: 0;
-    top: 90px;
 
   }
 }
@@ -1077,6 +1126,24 @@ footer img {
 
 .blockBigContact .blockBigContactForm {
   left: 50%;
+}
+
+
+//block with form at the end of page
+.formAtEnd{
+  form{
+    width: 400px;
+    .formGrid {
+      grid-template-columns: 200px 200px;
+      grid-row-gap: 30px;
+      grid-template-areas: 
+        ". ."
+        "sub sub";
+    }
+    input[type="submit"]{
+      grid-area: sub;
+    }
+  }
 }
 } // end! Small devices
 
@@ -1307,6 +1374,19 @@ footer img {
   p{
   font-size: 14px;
  
+  }
+}
+
+//block with form at the end of page
+.formAtEnd{
+  form{
+    width: 100%;
+    .formGrid {
+      grid-template-columns: 1fr;
+      grid-row-gap: 15px;
+      
+    }
+    
   }
 }
 } // end! Extra small devices
