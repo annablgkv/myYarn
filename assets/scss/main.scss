@@ -725,6 +725,87 @@ footer {
     }
   }
 }
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url("../img/bg3pages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: 1px solid #000;
+h2{
+  font-size: 30px;
+  font-family: "Proxima Nova Bold";
+  color: rgb(18, 18, 22);
+  line-height: 1.2;
+  margin-bottom: 120px;
+}
+h3{
+  font-size: 20px;
+  font-family: "Proxima Nova Bold";
+  color: rgb(18, 18, 22);
+  line-height: 1.8;
+  text-align: left;
+}
+li{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(62, 62, 62);
+  line-height: 1.8;
+}
+a{
+  margin-top: 180px;
+  width: 30%;
+}
+}
+
+.mainBlock{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  h2{
+    font-size: 30px;
+    font-family: "Proxima Nova Bold";
+    color: rgb(18, 18, 22);
+    line-height: 2.4;
+  }
+  p{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(62, 62, 62);
+    line-height: 1.8;
+    margin-bottom: 50px;
+  }
+
+  .imgPrincip{
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    h3{
+      font-size: 30px;
+      font-family: "Proxima Nova Bold";
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      width: 90%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+  }
+  .imgPrincip1{background-image: url("../img/princip1.png");}
+  .imgPrincip2{background-image: url("../img/princip2.png");}
+  .imgPrincip3{background-image: url("../img/princip3.png");}
+  .imgPrincip4{background-image: url("../img/princip4.png");}
+  .imgPrincip5{background-image: url("../img/princip5.png");}
+  .imgPrincip6{background-image: url("../img/princip6.png");}
+   
+
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
@@ -827,7 +908,20 @@ footer ul li a {
 
 
 
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+  padding-left: 30px;
+}
 
+.mainBlock{
+  .imgPrincip{
+    h3{
+      font-size: 23px;
+    }
+   
+  }
+}
 
 } // end! Large devices
 
@@ -966,6 +1060,28 @@ footer {
     }
   }
 }
+
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+height: 600px;
+a{
+  margin-top: 100px;
+  width: 30%;
+}
+}
+
+.mainBlock{
+  .imgPrincip{
+    height: 150px;
+    h3{
+      font-size: 21px;
+    }
+  }
+}
+
 } // end! Medium devices
 
 
@@ -1145,6 +1261,27 @@ footer img {
     }
   }
 }
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+height: 645px;
+
+a{
+  margin-top: 20px;
+  width: 45%;
+}
+}
+
+.mainBlock{
+  .imgPrincip{
+    margin-bottom: 20px;
+   
+  }
+}
+
+
 } // end! Small devices
 
 
@@ -1389,5 +1526,43 @@ footer img {
     
   }
 }
+
+///////////////////////////////////////////////////////
+//page plastinchatie 3 pices
+//stuff on the top
+.stuffOnTop{
+background-image: url("../img/m.png");
+text-align: center;
+h2{
+  margin-bottom: 50px;
+}
+li{
+  margin-left: 40px;
+}
+a{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 85%;
+}
+}
+
+
+
+.mainBlock{
+  h2{
+    font-size: 23px;
+    
+  }
+  p{
+      font-size: 14px;
+    }
+  .imgPrincip{
+    margin-bottom: 20px;
+   h3{
+     font-size: 21px;
+   }
+  }
+}
+
 } // end! Extra small devices
 ///////////////////////////////////////////////////////////
