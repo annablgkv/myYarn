@@ -19,22 +19,30 @@ description = "Default layout"
   <!-- Connection CSS -->
   <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
   <link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/owl.carousel.min.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/owl.theme.default.min.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/fontawesome-all.min.css'|theme }}">
   {% styles %}
 
 </head>
 
 <body>
 
+  {% partial "menu" %}
+
   <!-- Content -->
   <section id="layout-content">
     {% page %}
   </section>
+
+  {% partial "footer" %}
 
 
   <!-- Connection JavaScript -->
   <script src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
   <script src="{{ 'assets/js/popper.min.js'|theme }}"></script>
   <script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+  <script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
   <script src="{{ 'assets/js/main.js'|theme }}"></script>
   {% framework extras %} 
   {% scripts %}
