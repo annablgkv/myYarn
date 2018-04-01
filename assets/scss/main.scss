@@ -71,6 +71,126 @@ ul { // reset
 	user-select: none;
 }
 ///////////////////////////////////////////////////////////
+// >magicForm
+#magicForm {
+
+.titleBlock {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  padding-bottom: 30px;
+  h1 {
+    font-size: 30px;
+    font-family: "Proxima Nova Bold";
+    color: #121216;
+  }
+}
+
+.magicFormContainer {
+  width: 1110px;
+  margin: auto;
+}
+
+#magicFormTabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.magicFormBg {
+  background: #e4e4e4;
+}
+
+.nav-tabs {
+  border: none; // reset
+}
+
+.nav-link {
+  height: 100%;
+  position: relative;
+  border: none; // reset
+  border-radius: 0px; // reset
+  transition: .3s;
+  span {
+    float: left;
+    font-family: "Proxima Nova Bold";
+    color: #6f6f6f;
+    font-size: 60px;
+    line-height: 0px;    
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  p {
+    font-size: 16px;
+    color: #6f6f6f;
+    font-family: "Roboto";
+    margin-left: 50px;
+  }
+  &:hover {
+    background: #eee;
+  }
+}
+
+.nav-link.active {
+  background: #008dcf;
+  span, p {
+    color: #fff;
+  }
+}
+
+.magicFormList {
+  position: relative;
+  padding: 50px 30px;
+  background: #fff;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 25px;
+}
+
+.magicFormList1 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    ". . ."
+  ;
+}
+
+input, select, textarea {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(79, 79, 78);
+  padding: 5px 13px;
+  background: #eee;
+  border: none;
+  &::placeholder {
+    color: #000;
+  }
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  background: #008dcf;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+  color: rgb(79, 79, 78);
+}
+
+} // magicForm
+///////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////
 // UI form
 .mainFormStyle {
   h1 {
@@ -805,12 +925,68 @@ a{
    
 
 }
+
+//page nasosnoe oborudovanie
+//block header stuff
+.headerStuff1{
+  background-image: url("../img/bg1armour.png");
+  background-size: cover;
+  border-bottom: 0.5px solid #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  h2{
+  font-size: 30px;
+  color: rgb(18, 18, 22);
+  font-family: 'Proxima Nova Bold';
+  line-height: 1.2;
+  }
+  p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(18, 18, 22);
+  line-height: 1.2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  a{
+    width: 50%;
+  }
+  img{
+    width: 100%;
+    margin-top: 47px;
+  }
+}
+
+.postavimNasos{
+  h2{
+    font-size: 30px;
+    color: rgb(18, 18, 22);
+    font-family: 'Proxima Nova Bold';
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .postavNasos{
+    background-image: url("../img/nasos1.png");
+    background-size: cover;
+  }
+}
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
 ///////////////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 // >desk
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+// magicForm
+#magicForm {
+  .magicFormContainer {
+    width: 900px;
+  }
+}
+
 
 //main menu nav bar
 .navbar-brand img {
@@ -928,6 +1104,21 @@ footer ul li a {
 // Medium devices (tablets, 768px and up)
 // >tablet
 @media (min-width: 768px) and (max-width: 991.98px){
+
+// magicForm
+#magicForm {
+  .magicFormContainer {
+    width: 700px;
+  }
+  #magicFormTabs {
+    grid-template-columns: 1fr;
+  }
+  .nav-item {
+    text-align: left;
+  }
+}
+
+
 //main menu nav bar
 .callUs {
   margin-left: 0px;
@@ -1088,6 +1279,31 @@ a{
 // Small devices (landscape phones, 576px and up)
 // >smart
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+// magicForm
+#magicForm {
+  .titleBlock {
+    width: 100%;
+  }
+
+  .magicFormContainer {
+    width: 500px;
+  }
+  #magicFormTabs {
+    grid-template-columns: 1fr;
+  }
+  .nav-item {
+    text-align: left;
+  }
+  .magicFormList1 {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "."
+    ;
+  }
+}
+
 //main menu nav bar
 .navbar-brand img {
   width: 100px;
@@ -1287,6 +1503,29 @@ a{
 // Extra small devices (portrait phones, less than 576px)
 // >mobi
 @media (max-width: 575.98px) {
+
+// magicForm
+#magicForm {
+  .titleBlock {
+    width: 100%;
+  }
+
+  .magicFormContainer {
+    width: 270px;
+  }
+  #magicFormTabs {
+    grid-template-columns: 1fr;
+  }
+  .nav-item {
+    text-align: left;
+  }
+  .magicFormList1 {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "."
+    ;
+  }
+}
 
 //main menu nav bar
 .navbar-brand img {
@@ -1560,6 +1799,19 @@ a{
    h3{
      font-size: 21px;
    }
+  }
+}
+
+//block headerStuff
+.headerStuff1{
+  h2{
+  font-size: 26px;
+  }
+  p{
+  font-size: 14px;
+  }
+  a{
+    width: 90%;
   }
 }
 
