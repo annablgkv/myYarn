@@ -629,6 +629,9 @@ p {
 #servicesView {
   text-align: center;
   padding-bottom: 50px;
+  background-image: url('../img/serv_arrow.png');
+  background-repeat: no-repeat;
+  background-position: left center;
   .row {
     margin-top: 20px;
   }
@@ -1099,6 +1102,9 @@ a{
 // >desk
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+#servicesView {
+  background: none;
+}
 
 // magicForm
 #magicForm {
@@ -1224,6 +1230,10 @@ footer ul li a {
 // Medium devices (tablets, 768px and up)
 // >tablet
 @media (min-width: 768px) and (max-width: 991.98px){
+
+#servicesView {
+  background: none;
+}
 
 // Наши работы
 #worksBlock {
@@ -1410,6 +1420,9 @@ a{
 // >smart
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+#servicesView {
+  background: none;
+}
 
 // Наши работы
 #worksBlock {
@@ -1643,6 +1656,10 @@ a{
 // Extra small devices (portrait phones, less than 576px)
 // >mobi
 @media (max-width: 575.98px) {
+
+#servicesView {
+  background: none;
+}
 
 // Наши работы
 #worksBlock {
