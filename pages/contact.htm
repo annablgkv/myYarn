@@ -3,4 +3,33 @@ url = "/contact"
 layout = "default"
 is_hidden = 0
 ==
-{% partial "menu" %}
+
+
+<!-- block bigContact (start) -->
+<div class="blockBigContact">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A31a19acb9dd62b46c4a063fbbc6aeaa413c53faa5f6f62cfa01baa9223bedb64&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+
+  <div class="blockBigContactForm">
+    <form action="" class="mainFormStyle">
+      <h1>Контакты</h1>
+      <span>Адрес:</span>
+      <p>г. Ростов-на-Дону, ул. Дачная 97/85</p>
+      <span>Телефон:</span>
+      <p><a href="#">+7 (863) 206 72 34</a></p>
+      <span>e-mail:</span>
+      <p><a href="#">info@ink-groupp.ru</a></p>
+      <h2>Оставить заявку</h2>
+      <div class="formGrid">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Телефон">
+        <input type="submit" value="Перезвоните мне">
+        <textarea placeholder="Сообщение"></textarea>
+        <select>
+          <option value="day">Сегодня</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+</div>
+<!-- block bigContact (end) -->
