@@ -1,5 +1,5 @@
 function owlHome() {
-  $('.owl-carousel').owlCarousel({
+  $('.owlHome').owlCarousel({
     nav: true,
     dots: false,
     margin: 50,
@@ -24,7 +24,7 @@ function owlHome() {
   })
 }
 
-function owlHome() {
+function owlService() {
   $('.owlServicesSerti').owlCarousel({
     nav: true,
     dots: false,
@@ -48,7 +48,30 @@ function owlHome() {
       }
     } // end! responsive
   })
+
+  $('.owl3').owlCarousel({
+    nav: true,
+    dots: false,
+    margin: 15,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: {
+        items: 1
+      },
+      500: {
+        items: 2
+      },
+      700: {
+        items: 3
+      }
+    } // end! responsive
+  })
 }
+
+
 
 function magicForm() {
   $('#magicFormTabs a').on('click', function (e) {
@@ -61,6 +84,7 @@ function magicForm() {
 (function ($) {
 
   owlHome()
+  owlService()
   magicForm()
 
 })(jQuery)
