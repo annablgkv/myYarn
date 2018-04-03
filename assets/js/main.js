@@ -24,6 +24,8 @@ function owlHome() {
   })
 }
 
+////////////////////////////////////////////////
+
 function owlService() {
   $('.owlServicesSerti').owlCarousel({
     nav: true,
@@ -49,6 +51,35 @@ function owlService() {
     } // end! responsive
   })
 
+  $('.owl2').owlCarousel({
+    nav: true,
+    dots: false,
+    margin: 50,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: {
+        items: 1
+      },
+      500: {
+        items: 2
+      },
+      700: {
+        items: 3
+      },
+      900: {
+        items: 4
+      }
+    } // end! responsive
+  })
+
+}
+
+////////////////////////////////////////////////
+
+function owlArmatura() {
   $('.owl3').owlCarousel({
     nav: true,
     dots: false,
@@ -69,7 +100,11 @@ function owlService() {
       }
     } // end! responsive
   })
-}
+} 
+
+ 
+
+
 
 
 
@@ -85,6 +120,7 @@ function magicForm() {
 
   owlHome()
   owlService()
+  owlArmatura()
   magicForm()
 
 })(jQuery)

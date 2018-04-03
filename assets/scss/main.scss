@@ -1045,8 +1045,20 @@ a{
   .imgPrincip4{background-image: url("../img/princip4.png");}
   .imgPrincip5{background-image: url("../img/princip5.png");}
   .imgPrincip6{background-image: url("../img/princip6.png");}
+
+  .imgPrincip7{background-image: url("../img/rekuperatory_img1.png");}
+  .imgPrincip8{background-image: url("../img/rekuperatory_img3.png");}
+  
    
 
+}
+
+.stuffOnTop2 {
+  background-image: url('../img/rekuperatoryBgTitle.png') !important;
+}
+
+.stuffOnTop3 {
+  background-image: url('../img/stuffOnTop3.png') !important;
 }
 
 //page nasosnoe oborudovanie
@@ -1082,6 +1094,8 @@ a{
 }
 
 .postavimNasos{
+  padding-top: 40px;
+  padding-bottom: 80px;
   h2{
     font-size: 30px;
     color: rgb(18, 18, 22);
@@ -1090,10 +1104,36 @@ a{
     text-align: center;
     margin-bottom: 30px;
   }
-  .postavNasos{
-    background-image: url("../img/nasos1.png");
-    background-size: cover;
+  h3{
+  font-size: 20px;
+  font-family: "Roboto";
+  color: rgb(18, 18, 22);
+  line-height: 3.2;
+  text-align: left;
   }
+  p{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(18, 18, 22);
+  line-height: 1.2;
+  }
+  .postavNasosImg{
+    border-right: 3px solid #eee;
+    margin-bottom: 70px;
+    img {
+      width: 60%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .postavNasosDesc {
+    padding-left: 60px;
+    margin-bottom: 70px;
+    
+  }
+
 }
 ///////////////////////////////////////////////////////////
 /* >magic                                                */
@@ -1980,6 +2020,24 @@ a{
   a{
     width: 90%;
   }
+}
+
+.postavimNasos{
+  h2{
+   
+    margin-bottom: 90px;
+  }
+
+  .postavNasosDesc {
+    padding-left: 60px;
+    margin-bottom: 120px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #121216;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+
 }
 
 } // end! Extra small devices
